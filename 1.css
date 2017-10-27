@@ -12,35 +12,26 @@ html, body{
 }
 
 body{
-	background-color:#ddd;
-	border-bottom:5px solid #49a942;
+	width:100%;
+	background-color:#ddd;	
 	border-top:5px solid #49a942;
+	border-bottom:5px solid #49a942;
 	overflow:hidden;
 }
 
-.button{
-	display:inline-block;
-	padding:1%;
-	margin:0 2%;
-	padding-left:1%;
-	padding-right:1%;
-	letter-spacing:1px;
-	background-color:#49a942;
-	color:white;
-	border-bottom:7px solid #2dde98;
-}
-
-.nar{
-	background-color:#49a942;
+.ic{
+	font-size:170pt;
+	margin:0 auto;
 	text-align:center;
-	margin:0;
-	padding:0;
+	color:rgba(0,0,0,0.1);
+	position:absolute;
+	bottom:30%;
 }
 
 .carte{
-	width:40%;
+	width:50%;
 	height:50%;
-	margin:8% auto 0 auto;
+	margin:10% auto 0 auto;
 	padding:2%;
 	background-color:#eee;
 	background-color:rgba(255,255,255,0.7);
@@ -95,14 +86,7 @@ body{
 	border:5px solid #49a942;
 }
 
-.ic{
-	font-size:170pt;
-	margin:0 auto;
-	text-align:center;
-	color:rgba(0,0,0,0.1);
-	position:absolute;
-	bottom:30%;
-}
+
 
 .one{
 	margin-top:5%;
